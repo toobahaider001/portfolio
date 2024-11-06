@@ -9,15 +9,17 @@ const Header = () => {
         <div>
             <Logo />
         </div>
-        <div className='text-sm  space-x-5'>
+        <div className='text-sm md:block hidden  space-x-5'>
             <Link href={"/"}>Home</Link>
             <Link href={"/about"}>About</Link>
             <Link href={"/contact"}>Contact</Link>
         </div>
         <div>
+          <Link href={"/contact"}>
             <Button
                 label="Let's chat"
              />
+             </Link>
         </div>
     </div>
   )

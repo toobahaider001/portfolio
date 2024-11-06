@@ -10,9 +10,9 @@ const SkillScore: React.FC<SkillScoreProps> = ({
     score
 }) => {
   return (
-    <div className="flex flex-col gap-2 w-full">
+    <div className="flex flex-col gap-2 w-full px-5">
         <div className="font-medium tracking-tight">{title}</div>
-        <div className="w-full h-4 rounded-full bg-zinc-200 overflow-hidden">
+        <div className="md:w-full h-4 rounded-full bg-zinc-200 overflow-hidden">
             {/* Progress Fill */}
             <div
                 style={{ width: `${score}%` }}
